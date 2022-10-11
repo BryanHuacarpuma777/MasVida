@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+
+}
+html{
+	font-family: 'Lato', sans-serif;
+}
+body{
+	background-color: #049BE3;
+}
+.loginBox{
+	width: 700px;
+	height: 420px;
+	color: #fff;
+	top: 45%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	
+}
+.titulo{
+	font-size: 40px;
+}
+.txtUsername, .txtPassword{
+
+	padding: 10px;
+	border-radius: 15px;
+	outline: none;
+	border: none;
+
+}
+.userLogo{
+	height: 270px;
+	width: 270px;
+	margin-left: 375px;
+	margin-top: -300px;
+}
+.logoBox{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+}
+.logoBox .logo{
+	width: 365px;
+	height: 175px;
+	margin-top: 15px;
+}
+.pie{
+
+	width: 100%;
+	background-color: #B42202;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	padding: 2rem 8%;
+	display: flex;
+	text-align: right;
+	flex-direction: column;
+	
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	text-align: right;
+
+}
+.iconTelefono{
+	width:  20px;
+	height: 20px;
+	
+}
+.iconCorreo{
+	width:  20px;
+	height: 20px;
+
+}
+.btnIngresar{
+	background-color: #B42202;
+	border: none;
+	padding: 10px;
+	border-radius: 15px;
+}
+

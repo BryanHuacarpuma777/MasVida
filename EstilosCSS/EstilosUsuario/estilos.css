@@ -1,0 +1,140 @@
+/*Color de Pagina y tipo Letra*/
+/*body{
+	background-color: #6CACDC;
+	font-family: cursive;
+	width: 150px;
+	height: 240;
+}*/
+
+/*Boton*/
+html{
+	font-family: 'Lato', sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #049BE3;
+}
+/*Parrafo Inferior*/
+.pie_pagina{
+	/*background-color: #9a0404;
+	width: 100%;
+	position: relative;
+	height: 50px;
+	top: 1000px;
+	text-align: right;*/
+	width: 100%;
+	background-color: #B42202;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	padding: 2rem 8%;
+	display: flex;
+	text-align: right;
+	flex-direction: column;
+
+}
+/*Icono Telefono*/
+.iconTelefono{
+	width:  20px;
+	height: 20px;
+	
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	text-align: right;
+}
+
+.iconCorreo{
+	width:  20px;
+	height: 20px;
+}
+
+/*Caja Buscador*/
+.box{
+	position: relative;
+	top: 25%;
+	left: 74%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.btnBuscar{
+	background-color: #B42202;
+	border: none;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+input.src{
+	padding: 9px 10px 9px 32px;
+	outline: none;
+	font-size: 18px;
+	border-radius: 25px;
+	color: #444;
+	border: 3px solid #9a0404;
+	background: #fff url("search-icon.png")
+		no-repeat 9px left;
+	width: 60px;	
+	left: 200%;
+	transition: all .5s;
+}
+input.src:hover{
+	width: 180px;
+	background-color: #fff;
+	border-color: #9a0404;
+	box-shadow: 0 0 5px #6dcff680;
+}
+/*Fin caja Buscador*/
+.perfil__icono{
+	width: 130px;
+	overflow: hidden;
+	height: 50px;
+	left: 0;
+	top: 0;
+}
+/*Tabla de Personal*/
+#main-container{
+	margin: 150px ;
+	width: 700px;
+}
+.tabla{
+	position: absolute;
+	width: 150%;
+	height: 100px;
+	left: 13%;
+	top: 10%;
+}
+
+table{
+	background-color: white;
+	text-align: center;	
+	border-collapse: collapse;
+
+}
+th,td{
+	padding: 15px;
+}
+thead{
+	background-color: #2d353d;
+	border-bottom:solid 5px #0F362D ;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #cd374b;
+	color: white ;
+}
+.informacion__descripcion{
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 9%;
+	left: 35%;
+}
